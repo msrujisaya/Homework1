@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <style>
+        form {
+            display: flex;
+    
+            flex-direction: column;
+            padding: 20px;
+            border: 1px solid gray;
+            border-radius: 8px;
+            width: 70%;
+            margin: 20px;
+        }      
+        
+        nav {
+            background-color:   rgb(174, 181, 194); }
+            .a{
+                display: flex;
+    
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    width: 70%;
+    margin: 20px;
+            }
+    </style>
+            
+</head>
+<body>
+    <div style="background-color: rgb(174, 181, 194);">
+    <hr>
+    <nav>
+    <a href="Index.html">Home</a> <code>|</code>
+    <a href="Education.html">Education</a> <code>|</code>
+    <a href="Work.html">Work Experience</a> <code>|</code>
+    <a href="Contact.html">Contact Me</a> <code>|</code>
+    </nav>
+    <hr>
+    </div>
+
+    <h2>Contact Me</h2>
+    <br>
+    
+<form>
+    <p>Enter your info</p>
+    
+    <label for="yourname">Your Name :</label><br>
+    <input type="text" name="yourname"><br><br>
+
+    <label for="email">Your E-mail :</label><br>
+    <input type="text" name="email"><br><br>
+
+    <label for="gender">Gender :</label><br>
+    <select name="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+    </select>
+    
+    <br><br>
+
+    <label for="message">Message :</label><br>
+    <textarea name="message" id="" cols="30" rows="10"></textarea><br><br>
+
+    <input type="submit" value="Send">
+    <input type="reset" value="Clear">
+</form>
+
+</body>
+</html>
